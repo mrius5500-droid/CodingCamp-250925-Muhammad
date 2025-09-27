@@ -1,0 +1,15 @@
+.logo {
+    background: lightgray;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-image: url(https://i.pinimg.com/736x/3d/c4/f2/3dc4f2532885512378d4fc78dea9acf2.jpg);
+    background-size: cover;
+}
+
+.main-header {
+    justify-content: space-between;
+    display: flex;
+    background-color: lightgray;
+}
+   

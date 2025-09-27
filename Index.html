@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+    <link rel="stylesheet" href="css\Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+
+        </div>
+
+        <nav>
+            <ul class="flex h-[100%] items-center gap-2">
+                <li><a class="border p-[8px] rounded" href="#home">Home</a></li>
+                <li><a class="border p-[8px] rounded" href="#profile">Profile</a></li>
+                <li><a class="border p-[8px] rounded" href="#portofolio">Portofolio</a></li>
+                <li><a class="border p-[8px] rounded" href="#message-us">Message Us</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <main>
+        <section id="home" class="h-[100vh] flex justify-center items-center">
+            <h1 class="text-5xl font-bold">Welcome to My Website</h1>
+        </section>
+
+        <section id="profile" class="h-[100vh] flex justify-center items-center">
+            <h1 class="text-5xl font-bold">Profile Section</h1>
+        </section>
+
+        <section id="portofolio" class="h-[100vh] flex justify-center items-center">
+            <h1 class="text-5xl font-bold">Portofolio Section</h1>
+        </section>
+
+        <section id="message-us" class="h-[100vh] flex justify-center items-center">
+            <h1 class="text-5xl font-bold">Message Us </h1>
+            <form>
+                <input type="text" placeholder="Your Message" class="border p-2 rounded">
+                <button type="submit" class="border p-2 rounded bg-blue-500 text-white">Send</button>
+            </form>
+           
+            
+        </section>
+    </main>
+
+    <footer>
+        <p class="text-center p-4 bg-gray-200">© 2024 My Website</p>
+    </footer>
+
+    <script src="js\Script.js"></script>
+</body>
+</html>
